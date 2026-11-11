@@ -4,13 +4,16 @@
 #lab01
 #Future Value
 #date - 11/06/2026
-def #place holder
-
-
-def #place holder
-
+def future_value (P,i,t):
+    F = P * (1 + i)**t
+    return (F)
+def display (F):
+    print("The future value is",F)
 
 def main():
-    #place holder
-    #place holder
+    P=(int(input("Enter Present Value")))
+    i=(float(input("Enter Monthly Interest Rate")))
+    t=(int(input("enter Number of Months")))
+    F=future_value(P,i,t,)
+    display (F)
 main()
