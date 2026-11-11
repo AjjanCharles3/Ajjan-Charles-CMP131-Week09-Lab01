@@ -13,7 +13,7 @@ def display (F):
 def main():
     P=(int(input("Enter Present Value")))
     i=(float(input("Enter Monthly Interest Rate")))
-    t=(int(input("enter Number of Months")))
+    t=(int(input("Enter Number of Months")))
     F=future_value(P,i,t,)
     display (F)
 main()
